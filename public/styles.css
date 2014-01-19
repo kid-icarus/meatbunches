@@ -21,12 +21,13 @@ body {
 
 ul {
   display: block;
-  height: 318px;
+  height: 450px;
   list-style: none;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 620px;
+  width: 600px;
+  border: 2px solid black;
 }
 
 h1 {
@@ -38,16 +39,15 @@ h1 {
 }
 
 img {
-  border: 3px solid #111;
+  /* border: 3px solid #111; */
   height: 150px;
   width: 200px;
 }
 
 li {
-  height: auto;
-  margin-top: -6px;
+  height: 150px;
   position: relative;
-  width: 206px;
+  width: 200px;
 }
 
 .logo {
@@ -59,7 +59,7 @@ li {
 
 .meat {
   float: left;
-  width: 206px;
+  width: 200px;
 }
 
 a {

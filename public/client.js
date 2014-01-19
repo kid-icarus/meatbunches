@@ -1,10 +1,12 @@
 (function($) {
 
-  var socket = io.connect('http://meatbunch.es');
+  var socket = io.connect('http://localhost:1337');
   var template = $('#template').html();
 
   socket.on('newmeat', function (data) {
 
+    $('#meats').sortable({containment: 'ul', items: {"> li:not(."}});
+    // $('li a.logolink').sortable("disable");
     var copy = $(template).clone();
     var list = $('#meats');
     var images = $('img');
